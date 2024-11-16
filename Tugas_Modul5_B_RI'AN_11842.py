@@ -5,7 +5,7 @@ from PIL import Image
 import os
 
 # Definisi jalur model
-model_path = r'D:\Introduction to Deep Learning (Praktek)\Introduction to Deep Learning (Praktek)\best_model_tf.h5'
+model_path = 'best_model_tf.h5'
 
 if os.path.exists(model_path):
     try:
